@@ -18,6 +18,7 @@ loginButton.addEventListener('click', e => {
     window.location = 'calla_homepage.html';
   } else {
     alert('WROOOOOOOOOOOOOOONG!');
+    
      strikeCounter++;
     
 
@@ -32,25 +33,6 @@ loginButton.addEventListener('click', e => {
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
