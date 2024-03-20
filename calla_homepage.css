@@ -1,0 +1,93 @@
+body{
+    font-family: 'Homemade Apple', cursive;
+    font-size:20px;
+    background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:cover;
+    background-repeat:repeat;
+    color:#000;
+  }
+  
+  ul{
+    position:absolute;
+    margin:0;
+    padding:0;
+  }
+  
+  li{
+    text-align:center;
+  /* https://www.w3schools.com/css/css_inline-block.asp */
+    display:inline-block;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/list-style */
+    list-style: none ;
+    position:relative;
+  /*Have Calla tweak the properties for border below */
+    border: solid 12px #fff;
+    background:#fff;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/list-style */
+    box-shadow:0px 0px 15px 0px #555;
+    /*ease-out will start the animation at full speed, then finish slowly.
+  ease-in-out will start slowly, be fastest at the middle of the animation, then finish slowly.
+  ease is like ease-in-out, except it starts slightly faster than it ends.*/
+    transition:all 3s ease;
+    /* -o-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease; */
+    top:50px;
+    
+      
+      
+  }
+  
+  
+  li:hover{
+    top:10px;
+    opacity:0.5;
+  }
+  
+  li:nth-child(1){
+     text-decoration:none;  
+      transform:rotate(10deg);
+  }
+  
+  li:nth-child(2){
+      transform:rotate(0deg);
+  }
+  
+  li:nth-child(3){
+      transform:rotate(-10deg);
+  }
+  
+  li:nth-child(4){
+      transform:rotate(20deg);
+  }
+  
+  li:nth-child(5){
+      transform:rotate(-10deg);
+  }
+  
+  li:nth-child(6){
+      transform:rotate(-19deg);
+  }
+  
+  li:nth-child(7){
+      transform:rotate(20deg);
+  }
+
+  li:nth-child(8){
+    transform:rotate(5deg);
+}
+
+  li:nth-child(9){
+  transform:rotate(-15deg);
+} 
+
+p{
+    margin: -10px 0px 0px 0px;
+  }  
+
+a{
+text-decoration: none
+
+
+
+}

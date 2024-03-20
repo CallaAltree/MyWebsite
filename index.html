@@ -1,108 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="calla_login.css" />
-    <script defer src="calla_login.js"></script>
-  </head>
-
-  <body>
-<!--Welcome to my _____ section-->
-
-    <main id="main-holder">
-      <h1 id="login-header">Login</h1>
-      <br>    
-      <h2 class="main">
-        <p class="para">Welcome to my</p>
-        <div class="wrapper">
-          <ul class="words">
-            <li class="word">Website</li>
-            <li class="word">Life</li>
-            <li class="word">Story</li>
-            <li class="word">World</li>
-          </ul>
-        </div>
-      </h2>
-
-<!-- Login section-->
-
-    <div class="wrapper">
-      <div class="container">
-        <h1>Welcome</h1>
-        
-        <form id="login-form">
-          <input
-            type="text"
-            name="username"
-            id="username-field"
-            class="login-form-field"
-            placeholder="Username"
-          />
-          <input
-          type="password"
-          name="password"
-          id="password-field"
-          class="login-form-field"
-          placeholder="Password"
-        />
-        <input type="submit" value="Login" id="login-form-submit" />
-        </form>
-      </div>
-      
-      <ul class="bg-bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-    
-
-
-      <div id="login-error-msg-holder">
-        <p id="login-error-msg">
-          Invalid username
-          <span id="error-msg-second-line">and/or password</span>
-        </p>
-      </div>
-
-      <!--<div class="wrapper">
-        <div class="container">
-          <h1>Welcome</h1>
-          
-          <form class="form">
-            <input type="text" placeholder="Username">
-            <input type="password" placeholder="Password">
-            <button type="submit" id="login-button">Login</button>
-          </form>
-        </div> -->
-        
-        <ul class="bg-bubbles">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Obstacle Course Game</title>
+</head>
+<body>
+    <div id="player"></div>
+    <div class="obstacle" id="obstacle1"></div>
+    <div class="obstacle" id="obstacle2"></div>
+    <div class="obstacle" id="obstacle3"></div>
+    <script src="script.js"></script>
+</body>
 </html>
-
-
-
-
-
